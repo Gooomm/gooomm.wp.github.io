@@ -1,0 +1,53 @@
+/* CSS Document */
+nav {padding: 10px 0;z-index: 99999}
+nav .container{position: relative}
+nav .nav-toggle{ position: absolute; right: 0; cursor: pointer; font-size: 1.2rem}
+nav .logo{color: #FF9799; font-size: 2.5rem; font-style: bold; text-shadow: 1px 1px 2px red; text-decoration: none}
+nav .menu{margin-top: 10px;}
+nav .menu ul {list-style: none;margin: 0;padding: 0}
+nav .menu ul li{position: relative}
+nav .menu ul li a{color: #967E76;text-decoration: none;display: block;padding: 5px 10px}
+nav .menu ul li a:hover{background-color: papayawhip}
+.anh-about{ width: 100%; height: auto }
+.myProgress {
+	overflow: hidden;
+  width: 100%;
+  background-color: #EEE3CB;
+  border-radius: 5px;
+   margin-bottom: 10px;
+    display: flex; justify-content: space-between;
+    padding-right:10px;
+    color: #B7C4CF;
+    align-items: center
+}
+
+.myBar {
+    border-radius: 5px 0 0 5px;
+    width: 15%;
+    height: 30px; line-height: 30px;
+    color: #fff; 
+    padding-left: 10px
+  
+}
+.progress-tt{ font-size :18px; margin: 0 ;}
+.bar30{ width: 30%}
+.bar50{ width: 50%}
+.bar60{ width: 60%}
+.bar80{ width: 80%}
+.bar100{ width: 100%}
+.text-press{ color: #E80862}
+.ss-contact{}
+.ss-contact a{ 
+    color: #FFFFFF; 
+    text-shadow: 1px 1px 3px #521;
+    margin: 5px
+}
+@media (min-width:1000px)
+{
+	nav .menu{display: block}
+	nav .nav-toggle{display: none}
+	nav .menu ul{display: flex}
+	nav .container{display: flex;justify-content: space-between;align-items:center}
+	nav .menu ul li a{border-bottom: none}
+}
+
